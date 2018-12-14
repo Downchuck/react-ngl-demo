@@ -20,6 +20,8 @@ This is a node package, run npm install to download appropriate dependencies for
 __"Create React App requires Node 8 or higher.__
 (AWS Cloud9 usees an old version of node, upgrade to v10 LTS):
 
+The [https://github.com/creationix/nvm/blob/master/README.md](Node Version Manager) helps with installing recent versions of node.
+
 ```
 nvm install lts/dubnium
 nvm alias default lts/dubnium
