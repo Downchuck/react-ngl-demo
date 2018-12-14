@@ -2,7 +2,7 @@ Exercises
 ----------------------------------------------------------------- 
 
 ## Code Exercise
-- React.js SPA that uses https://github.com/arose/ngl and can load/display a PDB
+- React.js SPA that uses [NGL](https://github.com/arose/ngl) and can load/display a PDB
 
 ## Definition of Done:
 - Actually working, testing/documentation, a 12factor app. (12factor.net)
@@ -12,6 +12,22 @@ Exercises
 ## Notes
 
 This is a node package, run npm install to download appropriate dependencies for development.
+
+
+Run with:
+```
+npm start
+```
+
+Continuous testing with:
+```
+npm test
+```
+
+Install dependencies:
+```
+npm install
+```
 
 ### Development with React
 
@@ -23,27 +39,17 @@ __"Create React App requires Node 8 or higher.__
 The [Node Version Manager](https://github.com/creationix/nvm/blob/master/README.md) helps with installing recent versions of node.
 
 ```
-nvm install lts/dubnium
-nvm alias default lts/dubnium
+nvm install --lts
+```
+You may also want to update npm as some versions run slow on Windows.
+```
+npm install -g npm@latest
 ```
 
 This repository was created with:
 ```
 npx create-react-app react-ngl-demo
-```
-
-Other Dependencies:
-```
 cd react-ngl-demo
 npm install --save ngl
 ```
 
-Run with:
-```
-npm start
-```
-
-Suggested development with TDD:
-```
-npm test
-```
