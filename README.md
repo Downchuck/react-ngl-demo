@@ -9,10 +9,6 @@ Exercises
 - Can load and run locally on any machine (*nix, windows, mac)
 - If UI, mobile first/responsive
 
-## Contacts:
-- Jake Litwicki <jake.litwicki@cyrusbio.com>
-- Byron Conforti <Byron@fueltalent.com>
-
 ## Notes
 
 This is a node package, run npm install to download appropriate dependencies for development.
