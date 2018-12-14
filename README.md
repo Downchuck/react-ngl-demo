@@ -15,12 +15,12 @@ This is a node package, run npm install to download appropriate dependencies for
 
 ### Development with React
 
-[https://github.com/facebook/create-react-app](create-react-app) is a useful standard for JavaScript-based development.
+This repository was built from  [create-react-app](https://github.com/facebook/create-react-app), a useful framework for JavaScript-based development.
 
 __"Create React App requires Node 8 or higher.__
 (AWS Cloud9 usees an old version of node, upgrade to v10 LTS):
 
-The [https://github.com/creationix/nvm/blob/master/README.md](Node Version Manager) helps with installing recent versions of node.
+The [Node Version Manager](https://github.com/creationix/nvm/blob/master/README.md) helps with installing recent versions of node.
 
 ```
 nvm install lts/dubnium
